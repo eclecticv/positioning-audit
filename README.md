@@ -6,13 +6,24 @@ This is a **diagnostic tool** — it tells you what's wrong with your positionin
 
 ## Install
 
+### Option 1: Via And/or Labs Marketplace (Recommended)
+
+```bash
+/plugin marketplace add eclecticv/positioning-diagnostic
+/plugin install positioning-diagnostic
+```
+
+This adds the And/or Labs marketplace to Claude Code and installs the positioning-diagnostic plugin. You'll get automatic updates when new versions are released.
+
+### Option 2: Direct Git Clone
+
 ```bash
 git clone https://github.com/eclecticv/positioning-diagnostic.git ~/.claude/skills/positioning-diagnostic
 ```
 
 That's it. The skill is available immediately in your next Claude Code session.
 
-### Alternative: Manual Install
+### Option 3: Manual Install
 
 Download the ZIP from this repo and copy the `.md` files into `~/.claude/skills/positioning-diagnostic/`.
 
@@ -69,6 +80,21 @@ You'll get:
 /antipatterns https://mycompany.com                        # Mistake scan
 /compare https://mycompany.com https://competitor.com      # Competitive view
 /export https://mycompany.com                              # Stakeholder report
+```
+
+## And/or Labs Marketplace
+
+This repository serves as both a Claude Code skill and the And/or Labs marketplace. Future And/or Labs tools for B2B SaaS marketing and growth will be available here.
+
+To add the marketplace:
+```bash
+/plugin marketplace add eclecticv/positioning-diagnostic
+```
+
+Then browse and install plugins:
+```bash
+/plugin list
+/plugin install positioning-diagnostic
 ```
 
 ## Compatibility
