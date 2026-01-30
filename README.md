@@ -1,4 +1,4 @@
-# Positioning Diagnostic
+# Positioning Doctor
 
 Analyze any homepage's positioning using frameworks from April Dunford, Fletch PMM, Geoffrey Moore, and Al Ries & Jack Trout. Get a score, find what's broken, and know what to fix first.
 
@@ -9,23 +9,23 @@ This is a **diagnostic tool** — it tells you what's wrong with your positionin
 ### Option 1: Via And/or Labs Marketplace (Recommended)
 
 ```bash
-/plugin marketplace add eclecticv/positioning-diagnostic
-/plugin install positioning-diagnostic
+/plugin marketplace add eclecticv/positioning-doctor
+/plugin install positioning-doctor
 ```
 
-This adds the And/or Labs marketplace to Claude Code and installs the positioning-diagnostic plugin. You'll get automatic updates when new versions are released.
+This adds the And/or Labs marketplace to Claude Code and installs the positioning-doctor plugin. You'll get automatic updates when new versions are released.
 
 ### Option 2: Direct Git Clone
 
 ```bash
-git clone https://github.com/eclecticv/positioning-diagnostic.git ~/.claude/skills/positioning-diagnostic
+git clone https://github.com/eclecticv/positioning-doctor.git ~/.claude/skills/positioning-doctor
 ```
 
 That's it. The skill is available immediately in your next Claude Code session.
 
 ### Option 3: Manual Install
 
-Download the ZIP from this repo and copy the `.md` files into `~/.claude/skills/positioning-diagnostic/`.
+Download the ZIP from this repo and copy the `.md` files into `~/.claude/skills/positioning-doctor/`.
 
 ## Commands
 
@@ -88,13 +88,13 @@ This repository serves as both a Claude Code skill and the And/or Labs marketpla
 
 To add the marketplace:
 ```bash
-/plugin marketplace add eclecticv/positioning-diagnostic
+/plugin marketplace add eclecticv/positioning-doctor
 ```
 
 Then browse and install plugins:
 ```bash
 /plugin list
-/plugin install positioning-diagnostic
+/plugin install positioning-doctor
 ```
 
 ## Compatibility

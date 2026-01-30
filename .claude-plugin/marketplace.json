@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "positioning-diagnostic",
+      "name": "positioning-doctor",
       "description": "Comprehensive B2B SaaS homepage positioning analysis using proven frameworks from April Dunford, Anthony Pierri (Fletch PMM), Geoffrey Moore, and Al Ries & Jack Trout. Includes 6 commands: /diagnose (quick 60s diagnostic with MECLABS score), /audit (100-point analysis), /alignment (stakeholder testing), /antipatterns (mistake detection), /compare (competitive analysis), and /export (shareable reports).",
       "version": "1.0.0",
       "author": {
