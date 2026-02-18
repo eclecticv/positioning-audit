@@ -10,9 +10,9 @@
   },
   "plugins": [
     {
-      "name": "positioning-doctor",
-      "description": "Comprehensive B2B SaaS homepage positioning analysis using proven frameworks from April Dunford, Anthony Pierri (Fletch PMM), Geoffrey Moore, and Al Ries & Jack Trout. Includes 6 commands: /diagnose (quick 60s diagnostic with MECLABS score), /audit (100-point analysis), /alignment (stakeholder testing), /antipatterns (mistake detection), /compare (competitive analysis), and /export (shareable reports).",
-      "version": "1.0.0",
+      "name": "positioning-grader",
+      "description": "Analyzes B2B SaaS homepages against 42 positioning checks drawn from Dunford ('Obviously Awesome'), Fletch PMM (homepage teardowns), Moore ('Crossing the Chasm'), MECLABS (conversion heuristic), and Ries & Trout ('Positioning'). Scores 6 categories — Dunford Canvas, Fletch Questions, Moore Statement, MECLABS Heuristic, Competitive Framing, and Anti-Patterns — with full framework citations. Includes 2 commands: analyze (comprehensive .md export) and report (PDF summary).",
+      "version": "2.0.0",
       "author": {
         "name": "And/or Labs"
       },
